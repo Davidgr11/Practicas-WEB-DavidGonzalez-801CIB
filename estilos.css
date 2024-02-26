@@ -1,7 +1,8 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
 }
 
 header {
@@ -9,6 +10,7 @@ header {
     color: white;
     text-align: center;
     padding: 20px;
+    font-size: 2em;
 }
 
 section {
@@ -16,15 +18,18 @@ section {
 }
 
 .testimonials {
-    background-color: #f9f9f9;
+    background-color: #fff;
     padding: 20px;
     margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 }
 
 .testimonial {
     border: 1px solid #ccc;
     padding: 10px;
     margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 .testimonial img {
@@ -41,12 +46,14 @@ section {
 
 button {
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #007bff;
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.2em;
 }
 
 button:hover {
-    background-color: #555;
+    background-color: #0056b3;
 }
